@@ -1,0 +1,23 @@
+{
+  "editor.gotoLocation.alternativeDeclarationCommand": "editor.action.revealDefinition",
+  "editor.gotoLocation.alternativeDefinitionCommand": "editor.action.revealDefinition",
+  "editor.gotoLocation.alternativeTypeDefinitionCommand": "editor.action.revealDefinition",
+  "editor.selectionHighlight": false,
+  "files.autoSave": "onFocusChange",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "on"
+  },
+  "CangjieSdkPath.CJNativeBackend": "/Users/hjbmeow/cli_app/cangjie",
+  "Cangjie.CodeCheckOnSave": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1",
+    "CANGJIE_HOME": "/Users/hjbmeow/cli_app/cangjie",
+    "PATH": "${config:terminal.integrated.env.osx.CANGJIE_PATH}:/Users/hjbmeow/cli_app/cangjie/bin:/Users/hjbmeow/cli_app/cangjie/tools/bin:/Users/hjbmeow/cli_app/cangjie/debugger/bin:${env:PATH}",
+    "DYLD_LIBRARY_PATH": "${config:terminal.integrated.env.osx.CANGJIE_LD_LIBRARY_PATH}:/Users/hjbmeow/cli_app/cangjie/runtime/lib/darwin_aarch64_llvm:${env:DYLD_LIBRARY_PATH}",
+    "CANGJIE_PATH": "/Users/hjbmeow/cli_app/cangjie/bin:/Users/hjbmeow/cli_app/cangjie/tools/bin:/Users/hjbmeow/cli_app/cangjie/debugger/bin:",
+    "CANGJIE_LD_LIBRARY_PATH": "/Users/hjbmeow/cli_app/cangjie/runtime/lib/darwin_aarch64_llvm:/Users/hjbmeow/cli_app/cangjie/tools/lib:"
+  }
+}

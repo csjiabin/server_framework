@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Cangjie (CJNative): launch",
+      "program": "${programPath}",
+      "request": "launch",
+      "type": "cangjieDebug",
+      "externalConsole": false,
+      "env": {}
+    }
+  ]
+}
