@@ -3,7 +3,7 @@
 [package]
   cjc-version = "0.51.4"
   compile-option = ""
-  description = "nothing here"
+  description = "仓颉HTTP服务端框架"
   link-option = ""
   name = "server_framework"
   output-type = "executable"
