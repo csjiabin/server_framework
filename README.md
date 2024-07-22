@@ -30,6 +30,15 @@ func RouterMiddlewareFunc1(next: HandlerFunc): HandlerFunc {
     }
 }
 
+func RouterMiddlewareFunc2(next: HandlerFunc): HandlerFunc {
+    return {
+        ctx =>
+        println("pre RouterMiddlewareFunc2")
+        next(ctx)
+        println("post RouterMiddlewareFunc2")
+    }
+}
+
 func userList(ctx: BaseHttpContext): Unit {
     println("user list")
     ctx.status(HttpStatusCode.STATUS_OK).html("<h1>user list；用户列表</h1>")
